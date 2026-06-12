@@ -3,20 +3,99 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Event Collective Rentals | Table & Chair Rentals in Virginia</title>
+  <title>The Event Collective Rentals</title>
   <style>
-    :root{--black:#111;--cream:#fbf7ef;--gold:#c9a227;--soft:#f4ead8;--text:#252525;--muted:#6b6257;--white:#fff}*{box-sizing:border-box}body{margin:0;font-family:Georgia,'Times New Roman',serif;color:var(--text);background:var(--cream);line-height:1.6}a{color:inherit;text-decoration:none}.topbar{background:var(--black);color:var(--cream);text-align:center;padding:10px 16px;font-size:14px;letter-spacing:.4px}header{position:sticky;top:0;z-index:10;background:rgba(251,247,239,.96);border-bottom:1px solid #e5dccb}nav{max-width:1150px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:18px 20px}.brand{font-weight:700;font-size:22px;letter-spacing:.5px}.brand span{color:var(--gold)}.links{display:flex;gap:22px;font-size:15px}.btn{display:inline-block;background:var(--black);color:var(--cream);padding:12px 20px;border-radius:999px;font-weight:700;border:1px solid var(--black);transition:.2s}.btn:hover{background:var(--gold);border-color:var(--gold);color:var(--black)}.btn.light{background:transparent;color:var(--black);border-color:var(--gold)}.hero{min-height:78vh;display:grid;place-items:center;padding:80px 20px;background:linear-gradient(rgba(17,17,17,.58),rgba(17,17,17,.58)),url('https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1800&q=80') center/cover;color:var(--white);text-align:center}.hero-content{max-width:860px}.eyebrow{color:#f0d47a;text-transform:uppercase;letter-spacing:3px;font-size:13px;font-weight:700}.hero h1{font-size:clamp(42px,7vw,78px);line-height:1.02;margin:18px 0}.hero p{font-size:20px;max-width:720px;margin:0 auto 28px}.section{max-width:1150px;margin:auto;padding:80px 20px}.section-title{text-align:center;margin-bottom:40px}.section-title h2{font-size:42px;margin:0 0 10px}.section-title p{color:var(--muted);max-width:650px;margin:auto}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.card{background:var(--white);padding:28px;border-radius:22px;box-shadow:0 12px 35px rgba(0,0,0,.07);border:1px solid #eee2cf}.card h3{margin-top:0;font-size:24px}.price{font-size:34px;font-weight:700;color:var(--black);margin:12px 0}.small{color:var(--muted);font-size:14px}.feature{display:flex;gap:16px;align-items:flex-start}.icon{background:var(--gold);color:var(--black);border-radius:50%;min-width:42px;height:42px;display:grid;place-items:center;font-weight:700}.split{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center}.image-card{border-radius:26px;overflow:hidden;box-shadow:0 20px 55px rgba(0,0,0,.14)}.image-card img{width:100%;display:block}.quote{background:var(--black);color:var(--cream)}.quote .section-title p{color:#d6cbb8}.form{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:850px;margin:auto}.form input,.form textarea,.form select{width:100%;padding:15px;border-radius:12px;border:1px solid #d8c9ad;font:inherit}.form textarea{grid-column:1/-1;min-height:130px}.form button{grid-column:1/-1;cursor:pointer;font:inherit}.policies{background:var(--soft)}footer{background:var(--black);color:var(--cream);padding:40px 20px;text-align:center}.footer-brand{font-size:28px;font-weight:700;margin-bottom:10px}.contact-row{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin-top:16px;color:#e7d7b7}@media(max-width:850px){.links{display:none}.grid,.split,.form{grid-template-columns:1fr}.hero{min-height:70vh}.section{padding:56px 18px}.section-title h2{font-size:34px}}
+    *{box-sizing:border-box;margin:0;padding:0} body{font-family:Arial, sans-serif;line-height:1.6;color:#222;background:#fffaf4} header{background:#111;color:#fff;padding:35px 20px;text-align:center} header h1{font-size:38px;margin-bottom:8px} header p{font-size:18px;color:#f4d58d}.btn{display:inline-block;margin-top:20px;background:#c9a227;color:#111;padding:12px 22px;border-radius:6px;text-decoration:none;font-weight:bold} nav{background:#fff;border-bottom:1px solid #eee;text-align:center;padding:14px} nav a{color:#111;text-decoration:none;margin:0 12px;font-weight:bold} section{max-width:1000px;margin:auto;padding:45px 20px}.hero{background:#f7ead9;text-align:center;padding:55px 20px}.hero h2{font-size:32px;margin-bottom:12px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}.card{background:#fff;border:1px solid #eadcc7;border-radius:10px;padding:22px;box-shadow:0 4px 12px rgba(0,0,0,.06)}.card h3{margin-bottom:10px;color:#111}.price{font-size:24px;font-weight:bold;color:#9c7a15;margin:10px 0}.notice{background:#111;color:#fff;border-radius:10px;padding:25px;text-align:center}.notice strong{color:#f4d58d} ul{margin-left:22px}.form{background:#fff;border:1px solid #eadcc7;border-radius:10px;padding:24px} label{display:block;margin-top:12px;font-weight:bold} input,textarea,select{width:100%;padding:11px;margin-top:5px;border:1px solid #ccc;border-radius:6px;font-size:15px} button{margin-top:18px;background:#111;color:#fff;border:0;padding:13px 22px;border-radius:6px;font-weight:bold;cursor:pointer} footer{background:#111;color:#fff;text-align:center;padding:25px}.muted{color:#555;margin-top:8px}.small{font-size:14px;color:#666}@media(max-width:600px){header h1{font-size:30px}.hero h2{font-size:26px}nav a{display:block;margin:8px 0}}
   </style>
 </head>
 <body>
-  <div class="topbar">Now booking table & chair rentals for intimate events across Virginia</div>
-  <header><nav><div class="brand">The Event Collective <span>Rentals</span></div><div class="links"><a href="#rentals">Rentals</a><a href="#packages">Packages</a><a href="#policies">Policies</a><a href="#quote">Request Quote</a></div><a class="btn light" href="#quote">Book Now</a></nav></header>
-  <section class="hero"><div class="hero-content"><div class="eyebrow">Virginia Event Rentals</div><h1>Simple, Elegant Rentals for Beautiful Gatherings</h1><p>Affordable folding chair, banquet table, and linen rentals for birthdays, baby showers, dinners, pop-ups, and private celebrations.</p><a class="btn" href="#quote">Request a Quote</a></div></section>
-  <section class="section" id="rentals"><div class="section-title"><h2>What We Offer</h2><p>Starting with the essentials: clean, reliable tables and chairs delivered with care.</p></div><div class="grid"><div class="card feature"><div class="icon">1</div><div><h3>Folding Chairs</h3><p>Practical, clean seating for parties, showers, cookouts, and intimate gatherings.</p></div></div><div class="card feature"><div class="icon">2</div><div><h3>Banquet Tables</h3><p>Rectangular folding tables ideal for dining, gifts, food displays, and vendor setups.</p></div></div><div class="card feature"><div class="icon">3</div><div><h3>White Linens</h3><p>Optional white linens to help create a polished, cohesive event look.</p></div></div></div></section>
-  <section class="section" id="packages"><div class="section-title"><h2>Starter Packages</h2><p>Final pricing may vary by location, delivery, setup needs, and event timing.</p></div><div class="grid"><div class="card"><h3>Intimate Setup</h3><div class="price">25 Chairs</div><p>Includes 3 rectangular tables. Great for small gatherings and family events.</p><p class="small">Custom quote available</p></div><div class="card"><h3>Classic Setup</h3><div class="price">50 Chairs</div><p>Includes 5 rectangular tables. Perfect for showers, birthdays, and dinners.</p><p class="small">Delivery & setup available</p></div><div class="card"><h3>Custom Order</h3><div class="price">You Choose</div><p>Need a different mix of chairs, tables, or linens? Request a custom quote.</p><p class="small">Subject to availability</p></div></div></section>
-  <section class="section"><div class="split"><div><div class="eyebrow">Limited Launch Offer</div><h2>First 5 Bookings Receive a Complimentary Champagne Bottle</h2><p>Celebrate your event with a special thank-you gift from The Event Collective Rentals. Must book, follow, and tag our business page. Available while launch promotion lasts.</p><a class="btn" href="#quote">Claim Offer</a></div><div class="image-card"><img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80" alt="Elegant event table setup"></div></div></section>
-  <section class="section policies" id="policies"><div class="section-title"><h2>Rental Policies</h2><p>Clear expectations help make every booking smooth and stress-free.</p></div><div class="grid"><div class="card"><h3>Deposit</h3><p>A deposit is required to reserve your event date. Remaining balance is due before delivery or pickup.</p></div><div class="card"><h3>Damage & Loss</h3><p>Clients are responsible for damaged, missing, or heavily soiled rental items after delivery or pickup.</p></div><div class="card"><h3>Delivery Windows</h3><p>Delivery and pickup times are scheduled in advance. Additional fees may apply for late-night pickup or long-distance delivery.</p></div></div></section>
-  <section class="section quote" id="quote"><div class="section-title"><h2>Request a Quote</h2><p>Fill this out, then replace the form action with your Formspree or Google Form link so inquiries go to your email.</p></div><form class="form" action="mailto:tahmia.farmer@udc.edu" method="post" enctype="text/plain"><input name="name" placeholder="Full Name" required><input name="phone" placeholder="Phone Number" required><input name="email" placeholder="Email Address"><input name="date" placeholder="Event Date"><input name="location" placeholder="Event Location / City"><select name="delivery"><option>Delivery & setup needed?</option><option>Yes</option><option>No, pickup only</option></select><textarea name="details" placeholder="Tell us what you need: number of chairs, tables, linens, event time, and any special notes."></textarea><button class="btn" type="submit">Send Quote Request</button></form></section>
-  <footer><div class="footer-brand">The Event Collective Rentals</div><p>Affordable table and chair rentals for Virginia celebrations.</p><div class="contact-row"><span>Instagram: @theeventcollectiverentals</span><span>Facebook: The Event Collective Rentals</span><span>Email: yourbusiness@email.com</span></div></footer>
+  <header>
+    <h1>The Event Collective Rentals</h1>
+    <p>Affordable table and chair rentals for small events across Virginia</p>
+    <a class="btn" href="#quote">Request a Quote</a>
+  </header>
+
+  <nav>
+    <a href="#rentals">Rentals</a>
+    <a href="#packages">Packages</a>
+    <a href="#policies">Policies</a>
+    <a href="#quote">Book</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Simple Rentals for Beautiful Celebrations</h2>
+    <p>Starting with the essentials: folding chairs, rectangular banquet tables, and white linens for birthdays, baby showers, family gatherings, dinners, pop-ups, and intimate celebrations.</p>
+  </div>
+
+  <section id="rentals">
+    <h2>What We Offer</h2>
+    <p class="muted">We are currently starting with basic event essentials and will expand inventory soon.</p><br>
+    <div class="grid">
+      <div class="card"><h3>Folding Chairs</h3><p>Clean, simple seating for indoor and outdoor events.</p></div>
+      <div class="card"><h3>Rectangular Banquet Tables</h3><p>Great for food, gifts, dessert tables, vendor setups, and guest seating.</p></div>
+      <div class="card"><h3>White Linens</h3><p>Optional white linens to help your setup look polished and complete.</p></div>
+    </div>
+  </section>
+
+  <section id="packages">
+    <h2>Starter Packages</h2><br>
+    <div class="grid">
+      <div class="card"><h3>Small Event Package</h3><p>25 chairs + 3 rectangular tables</p><p class="price">Custom Quote</p><p class="small">Best for small gatherings, showers, and dinners.</p></div>
+      <div class="card"><h3>Full Starter Inventory</h3><p>50 chairs + 5 rectangular tables</p><p class="price">Custom Quote</p><p class="small">Best for birthdays, graduations, and family events.</p></div>
+      <div class="card"><h3>Custom Order</h3><p>Need a different combination?</p><p class="price">Ask Us</p><p class="small">Tell us your event date, location, and what you need.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="notice">
+      <h2>Opening Promotion</h2>
+      <p><strong>First 5 bookings</strong> receive a complimentary bottle of champagne with their rental order.</p>
+      <p class="small" style="color:#ddd">Must book within service area. Availability limited.</p>
+    </div>
+  </section>
+
+  <section id="policies">
+    <h2>Rental Policies</h2><br>
+    <div class="card">
+      <ul>
+        <li>A deposit may be required to reserve your event date.</li>
+        <li>Remaining balance is due before delivery or pickup.</li>
+        <li>Customer is responsible for damaged, missing, or broken items.</li>
+        <li>Items must be returned in the same condition received.</li>
+        <li>Delivery and setup may be available depending on location.</li>
+        <li>Outdoor events should have a weather backup plan.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="quote">
+    <h2>Request a Quote</h2>
+    <p class="muted">Fill this out and send the details by email, text, or DM. A working online form can be added later.</p><br>
+    <div class="form">
+      <label>Name</label><input type="text" placeholder="Your name" />
+      <label>Phone or Email</label><input type="text" placeholder="Best contact info" />
+      <label>Event Date</label><input type="date" />
+      <label>Event Location</label><input type="text" placeholder="City / area" />
+      <label>What do you need?</label><textarea rows="5" placeholder="Example: 25 chairs, 3 tables, white linens, delivery needed"></textarea>
+      <button type="button">Submit Request</button>
+      <p class="small">Note: This button is a placeholder. For now, customers should contact you directly below.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2><br>
+    <div class="card">
+      <p><strong>Business:</strong> The Event Collective Rentals</p>
+      <p><strong>Service Area:</strong> Virginia and surrounding areas</p>
+      <p><strong>Email:</strong> yourbusiness@email.com</p>
+      <p><strong>Phone:</strong> (000) 000-0000</p>
+      <p><strong>Instagram/Facebook:</strong> @theeventcollectiverentals</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 The Event Collective Rentals. All rights reserved.</p>
+  </footer>
 </body>
 </html>

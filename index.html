@@ -70,18 +70,37 @@
   </section>
 
   <section id="quote">
-    <h2>Request a Quote</h2>
-    <p class="muted">Fill this out and send the details by email, text, or DM. A working online form can be added later.</p><br>
-    <div class="form">
-      <label>Name</label><input type="text" placeholder="Your name" />
-      <label>Phone or Email</label><input type="text" placeholder="Best contact info" />
-      <label>Event Date</label><input type="date" />
-      <label>Event Location</label><input type="text" placeholder="City / area" />
-      <label>What do you need?</label><textarea rows="5" placeholder="Example: 25 chairs, 3 tables, white linens, delivery needed"></textarea>
-      <button type="button">Submit Request</button>
-      <p class="small">Note: This button is a placeholder. For now, customers should contact you directly below.</p>
-    </div>
-  </section>
+<h2>Request a Quote</h2>
+
+<form action="https://formsubmit.co/eventcollectiverentals@gmail.com" method="POST">
+
+<input type="hidden" name="_subject" value="New Rental Quote Request">
+<input type="hidden" name="_captcha" value="false">
+
+<label>Name</label>
+<input type="text" name="Name" placeholder="Your name" required />
+
+<label>Phone or Email</label>
+<input type="text" name="Contact" placeholder="Best contact info" required />
+
+<label>Event Date</label>
+<input type="date" name="Event Date" required />
+
+<label>Event Location</label>
+<input type="text" name="Location" placeholder="City / area" />
+
+<label>What do you need?</label>
+<textarea name="Rental Needs" rows="5" placeholder="Example: 25 chairs, 3 tables, white linens, delivery needed"></textarea>
+
+<button type="submit">Submit Request</button>
+
+</form>
+
+<p class="small">
+After submitting, we'll contact you to confirm availability and pricing.
+</p>
+
+</section>
 
   <section id="contact">
     <h2>Contact</h2><br>
